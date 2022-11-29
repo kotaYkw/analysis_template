@@ -5,6 +5,12 @@ import numpy as np
 import pandas as pd
 
 class Model(metaclass=ABCMeta):
+    """モデルのメソッドを持つ抽象クラス
+
+    Attributes:
+        run_fold_name (str): ランの名前とfoldの番号を組み合わせた名前
+        prms (dict): ハイパーパラメータ
+    """
 
     def __init__(self, run_fold_name: str, params: dict) -> None:
         """コンストラクタ

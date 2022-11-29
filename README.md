@@ -19,3 +19,10 @@
 - code-analysis (分析用のコードやJupyter Notebookのフォルダ)
 - model (モデルや特徴量を保存するフォルダ)
 - submission (提出用ファイルを保存するフォルダ)
+
+## VScodeでDockerコンテナに接続
+
+1. 拡張機能の [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)をインストール
+2. 左下の緑のボタンを押して**Reopen in Container**を選択
+3. 各種設定は `.devcontainer/devcontainer.json`に書き込む
+4. リモート接続したコンテナには拡張機能が入っていないので必要に応じて[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)等をインストールする

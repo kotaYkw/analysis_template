@@ -134,7 +134,6 @@ dmypy.json
 # vscode
 .ssh
 .vscode-server
-.devcontainer
 
 # git
 .gitconfig
