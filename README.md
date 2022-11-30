@@ -7,6 +7,7 @@
 3. `docker container ls` (現在走っているコンテナの確認)
 4. `docker compose exec python3 bash` (コンテナへ接続)
 5. `python sample.py 180.0` (sample.pyの実行)
+6. `exit` (コンテナからの接続を切る)
 
 - `docker compose down` (コンテナを終了し、削除)
 - `docker compose up -d` (コンテナ再起動)
