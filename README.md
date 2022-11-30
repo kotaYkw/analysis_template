@@ -14,11 +14,19 @@
 
 ## ディレクトリ構成
 
-- input (train.csv, test.csvなどの入力ファイルを入れるフォルダ)
-- code (計算用のコードのフォルダ)
-- code-analysis (分析用のコードやJupyter Notebookのフォルダ)
-- model (モデルや特徴量を保存するフォルダ)
-- submission (提出用ファイルを保存するフォルダ)
+- src (コンテナがマウントするディレクトリ)
+  - input (train.csv, test.csvなどの入力ファイルを入れるフォルダ)
+  - code (計算用のコードのフォルダ)
+  - code-analysis (分析用のコードやJupyter Notebookのフォルダ)
+  - model (モデルや特徴量を保存するフォルダ)
+  - submission (提出用ファイルを保存するフォルダ)
+- Dockerfile
+- docker-compose.yml
+- requirements.txt
+- .gitignore
+- README.md
+- .devcontainer
+  - devcontainer.json (VScodeでリモートアクセスするための設定ファイル)
 
 ## VScodeでDockerコンテナに接続
 
