@@ -10,6 +10,7 @@
 6. `exit` (コンテナからの接続を切る)
 
 - `docker compose down` (コンテナを終了し、削除)
+- `docker-compose down --rmi all --volumes --remove-orphans` (コンテナ、イメージ、ボリューム、ネットワーク、未定義コンテナ、全てを一括消去)
 - `docker compose up -d` (コンテナ再起動)
 - `docker image rm {imageid}` (イメージ削除)
 - `docker run -v $PWD/opt:/root/opt -w /root/opt -it --rm -p 7777:8888 docker-python-python3 jupyter-lab --ip 0.0.0.0 --allow-root -b localhost` (Jupyter Notebook立ち上げ)　<http://127.0.0.1:7777>
