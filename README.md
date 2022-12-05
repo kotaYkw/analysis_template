@@ -10,6 +10,7 @@
 6. `exit` (コンテナからの接続を切る)
 
 - `docker compose down` (コンテナを終了し、削除)
+- `docker rm {containerid}` (コンテナ削除)
 - `docker-compose down --rmi all --volumes --remove-orphans` (コンテナ、イメージ、ボリューム、ネットワーク、未定義コンテナ、全てを一括消去)
 - `docker compose up -d` (コンテナ再起動)
 - `docker image rm {imageid}` (イメージ削除)
